@@ -199,7 +199,8 @@ section{
 .home-sci{
     position: absolute;
     bottom: 4rem;
-    width: 170px;
+    width: 1920px;
+    height: 1080px;
     display: flex;
     justify-content: space-between;
 }
