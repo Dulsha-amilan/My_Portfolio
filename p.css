@@ -204,7 +204,14 @@ section{
     display: flex;
     justify-content: space-between;
 }
+.img-box {
+    z-index: -1;
+}
 
+.img-box img {
+   
+    z-index: -1;
+}
 .home-sci a{
     position: relative;
     display: inline-flex;
@@ -551,7 +558,8 @@ span{
     border-radius: 10%;
     position: absolute;
     margin-bottom: 20px; /* Add spacing between shapes */
-    z-index: -1;
+    z-index: -2;
+
 
     
 }
