@@ -802,4 +802,44 @@ width: 100%;
     animation: showRight 1s ease forwards;
     animation-delay: calc(.3s * var(--i));
 }
+.animate.scroll{
+    /* transition: 1s ease;
+    transition-delay: calc(.3s / var(--i));
+} */
+animation: showRight 1s ease forwards;
+animation-delay: calc(.3s * var(--i));
+}
+
+.about.show-animate .animate.scroll,
+.education.show-animaate .animate-scroll,
+.skills.show-animate .animate-scroll,
+.footer.show-animate .animate-scroll {
+    transition-delay: calc(.3s * var(--i));
+    width: 0;
+}
+
+/* BREAKPOINTS */
+@media (max-width:1200px) {
+    html{
+        font-size: 55%;
+    }
+}
+
+@media (max-width:990px) {
+    html{
+        padding: 2rem 4%;
+    }
+
+    section{
+        padding: 10rem 4% 2rem;
+    }
+    
+    home{
+        padding:0 4%
+    }
+
+    footer{
+        padding:2rem 4%;
+    }
+}
 
