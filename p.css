@@ -128,7 +128,7 @@ section{
     font-size: 3.2rem;
     font-weight:700;
     color: transparent;
-    -webkit-text-stroke: .7px var(--my-color);
+    -webkit-text-stroke: .7px var(--main-color);
 
 }
 .home-content p{
@@ -149,7 +149,7 @@ section{
     align-items: center;
     width: 15rem;
     height: 100%;
-    background: var(--my-color);
+    background: var(--main-color);
     border: .2rem solid var(--main-color);
     border-radius: .8rem;
     font-size: 1.8rem;
