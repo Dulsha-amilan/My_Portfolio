@@ -17,6 +17,7 @@
     --second-bg-color:#112e42;
     --text-color:#ededed;
     --main-color:#00abf0;
+    --my-color:#8c0d0d;
 }
 html{
     font-size: 62.5%;
@@ -127,7 +128,7 @@ section{
     font-size: 3.2rem;
     font-weight:700;
     color: transparent;
-    -webkit-text-stroke: .7px var(--main-color);
+    -webkit-text-stroke: .7px var(--my-color);
 
 }
 .home-content p{
