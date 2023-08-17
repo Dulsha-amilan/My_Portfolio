@@ -128,7 +128,7 @@ section{
     font-size: 3.2rem;
     font-weight:700;
     color: transparent;
-    -webkit-text-stroke: .7px var(--main-color);
+    -webkit-text-stroke: .7px var(--my-color);
 
 }
 .home-content p{
