@@ -1096,6 +1096,46 @@ animation-delay: calc(.3s * var(--i));
         font-size: 4.2rem;
     }
 }
+/* Mobile-first styles */
+/* Apply styles for smaller screens */
+@media screen and (max-width: 768px) {
+    .home-content {
+        text-align: center; /* Center align content */
+    }
+
+    .change-text h3 {
+        font-size: 18px; /* Adjust font size */
+    }
+
+    .btn-box {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px; /* Adjust spacing */
+    }
+
+    .home-sci {
+        text-align: center; /* Center align social icons */
+        margin-top: 20px; /* Adjust spacing */
+    }
+
+    .home-image {
+        text-align: center; /* Center align image */
+        margin-top: 20px; /* Adjust spacing */
+    }
+
+    .img-box img {
+        max-width: 100%; /* Ensure image doesn't overflow */
+        height: auto;
+    }
+
+    /* Adjust SVG animation */
+    .liquid-shape {
+        width: 100%; /* Make the SVG container full width */
+        max-width: 300px; /* Adjust max width if needed */
+        margin: 0 auto; /* Center the SVG */
+    }
+}
+
 
 /* KEYFRAMES ANIMATION */
 
