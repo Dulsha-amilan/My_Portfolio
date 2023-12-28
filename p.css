@@ -1180,3 +1180,25 @@ animation-delay: calc(.3s * var(--i));
 
 
 
+
+
+.liquid-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.liquid-shape {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 768px) {
+    .liquid-shape svg {
+        width: 100%;
+        height: 100%;
+    }
+}
