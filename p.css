@@ -147,9 +147,9 @@
    font-family: 'Poppins',sans-serif;
 }
 :root{
-    --bg-color: white no-repeat 45.5% !important;;
+    --bg-color:#081b29;
     --second-bg-color:#112e42;
-    --text-color:#1c1e53;
+    --text-color:#ededed;
     --main-color:#00abf0;
     --my-color:#8c0d0d;
 }
@@ -1182,23 +1182,23 @@ animation-delay: calc(.3s * var(--i));
 
 
 
-.liquid-container {
-    position: relative;
-    width: 100%;
-    height: auto;
-}
+ .liquid-container {
+            position: relative;
+            width: 100%;
+            height: auto;
+        }
 
-.liquid-shape {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
+        .liquid-shape {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
 
-@media (max-width: 768px) {
-    .liquid-shape svg {
-        width: 100%;
-        height: 100%;
-    }
-}
+        @media (max-width: 768px) {
+            .liquid-shape svg {
+                width: 100%;
+                height: 100%;
+            }
+        }
