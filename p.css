@@ -256,7 +256,7 @@ section{
 
 .home-content .text-animate{
     position: relative;
-    width: 32.8rem;
+    width: 30.8rem;
 }
 .home-content .text-animate h3{
     font-size: 3.2rem;
@@ -685,11 +685,13 @@ span{
     height: 100vh; /* Adjust as needed */
 }
 
+ 
+  
 .liquid-shape {
     width: 575px; /* Adjust the width as needed */
     height: 575px; /* Adjust the height as needed */
-    right: 8%;
-    top: 15%;
+    right: 5%;
+    top: 10%;
     border-radius: 10%;
     position: absolute;
     margin-bottom: 20px; /* Add spacing between shapes */
@@ -703,7 +705,7 @@ span{
     position: absolute;
     /* Adjust the width as needed */
     left: 50%;
-    top: 15%;
+    top: 25%;
  
     
 }
@@ -717,7 +719,7 @@ span{
 .liquid-shape:nth-child(2) {
     filter: blur(50px);
     position: absolute;
-    right: 8%;
+    right: 10%;
     top: 15%;
 }
 .contact{
@@ -842,8 +844,10 @@ width: 100%;
     html{
         font-size: 55%;
     }
+  
 }
 @media (max-width: 992px) {
+  
     .header{
         padding:2rem ;
     }
@@ -860,6 +864,7 @@ width: 100%;
     }
 }
 @media (max-width: 768px) {
+    
 
     .header{
         background: var(--bg-color);
@@ -920,8 +925,8 @@ width: 100%;
     position: absolute;
     top: 0;
     right: 0;
-    width: 100%;
-    height: 100%;
+    width: 40%;
+    height: 40%;
     background: var(--bg-color);
     z-index: 97;
 }
@@ -960,7 +965,19 @@ animation-delay: calc(.3s * var(--i));
     }
 }
 
+
 @media (max-width:990px) {
+    .liquid-shape{  position: absolute;
+        top: 0;
+        right: 0;
+        width: 40%;
+        height: 40%;
+        display: flex;
+      
+       }
+       .img-box{
+        
+       }
     html{
         padding: 2rem 4%;
     }
@@ -1125,9 +1142,9 @@ animation-delay: calc(.3s * var(--i));
     }
 
     .img-box img {
-        max-width: 100%; /* Ensure image doesn't overflow */
-        height: auto;
-    }
+        max-width: 50%; /* Ensure image doesn't overflow */
+       display: block;
+     margin: 0 auto;  }
 
     /* Adjust SVG animation */
     .liquid-shape {
