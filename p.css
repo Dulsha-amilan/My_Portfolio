@@ -805,11 +805,9 @@ span{
     width: 98%;
 }
 .skills-column:nth-child(2) .skills-content .progress:nth-child(7) .bar span{
-    width: 98%;
+    width: 92%;
 }
-.skills-column:nth-child(2) .skills-content .progress:nth-child(8) .bar span{
-    width: 98%;
-}
+
 .container {
     position: relative;
     display: flex;
