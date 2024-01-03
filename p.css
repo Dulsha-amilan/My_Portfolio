@@ -275,6 +275,7 @@ section{
     justify-content: space-between;
     width: 34.5rem;
     height: 5rem;
+    
 }
 .btn-box .btn{
     position: relative;
@@ -293,7 +294,10 @@ section{
     z-index: 1;
     overflow:hidden;
     transition :.5s;
+    
 }
+
+
 .btn-box .btn:hover{
     color:var(--main-color);
 }
@@ -993,6 +997,7 @@ width: 100%;
     .footer{
         padding: 2rem 4%;
     }
+   
 }
 @media (max-width: 768px) {
     
@@ -1049,7 +1054,7 @@ width: 100%;
     left: 0;
     transition-delay: .25s;
    }
-
+    
 }
 /* ANIMATION RELOAD SCROLL */
 .animate{
