@@ -275,7 +275,8 @@ section{
     justify-content: space-between;
     width: 34.5rem;
     height: 5rem;
-    
+    gap: 5px;
+
 }
 .btn-box .btn{
     position: relative;
