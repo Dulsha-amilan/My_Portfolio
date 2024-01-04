@@ -1259,7 +1259,7 @@ animation-delay: calc(.3s * var(--i));
     
 
     .home-sci {
-        text-align: left; /* Center align social icons */
+        margin:auto;
     
        
     }
@@ -1270,7 +1270,7 @@ animation-delay: calc(.3s * var(--i));
         max-width: 110%; /* Ensure image doesn't overflow */
       margin-left: -110px;
  
-   margin-top: -105px; }
+   margin-top: -98px; }
 
 }
 
