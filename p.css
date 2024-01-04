@@ -1248,11 +1248,12 @@ animation-delay: calc(.3s * var(--i));
 /* Apply styles for smaller screens */
 @media screen and (max-width: 768px) {
     .home-content {
-        text-align: center; /* Center align content */
+        text-align: left; /* Center align content */
     }
 
-    .change-text h3 {
+    .change-text h3  {
         font-size: 18px; /* Adjust font size */
+        text-align: right;
     }
 
     .btn-box {
@@ -1265,21 +1266,17 @@ animation-delay: calc(.3s * var(--i));
 
     .home-image {
         text-align: right; /* Center align image */
-        margin-top: 20px; /* Adjust spacing */
-        width: auto;
+        margin-top: 10px; /* Adjust spacing */
+       
     }
 
     .img-box img {
-        max-width: 50%; /* Ensure image doesn't overflow */
+        max-width: 90%; /* Ensure image doesn't overflow */
        display: block;
-     margin: 0 auto;  }
+   margin-top: -20px; }
 
     /* Adjust SVG animation */
-    .liquid-shape {
-        width: 100%; /* Make the SVG container full width */
-        max-width: 300px; /* Adjust max width if needed */
-        margin: 0 auto; /* Center the SVG */
-    }
+   
 }
 
 
