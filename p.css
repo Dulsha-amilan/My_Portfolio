@@ -1251,27 +1251,20 @@ animation-delay: calc(.3s * var(--i));
         text-align: left; /* Center align content */
     }
 
-    .change-text h3  {
+    .change-text h3 {
         font-size: 18px; /* Adjust font size */
         text-align: right;
     }
 
-    
-
     .home-sci {
-        margin:auto;
-    
-       
+        margin: auto;
     }
 
-   
-
     .img-box img {
-        max-width: 110%; /* Ensure image doesn't overflow */
-      margin-left: -110px;
- 
-   margin-top: -98px; }
-
+        max-width: 100%; /* Ensure image doesn't overflow */
+        margin-left: 0; /* Remove negative margin */
+        margin-top: 0; /* Remove negative margin */
+    }
 }
 
 
