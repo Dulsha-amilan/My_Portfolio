@@ -1259,24 +1259,19 @@ animation-delay: calc(.3s * var(--i));
     
 
     .home-sci {
-        text-align: center; /* Center align social icons */
-        margin-top: 10px; /* Adjust spacing */
-        position: fixed;
-    }
-
-    .home-image {
-        
+        text-align: left; /* Center align social icons */
+    
        
     }
 
-    .img-box img {
-        max-width: 90%; /* Ensure image doesn't overflow */
-       display: block;
- 
-   margin-top: -10px; }
-
-    /* Adjust SVG animation */
    
+
+    .img-box img {
+        max-width: 102%; /* Ensure image doesn't overflow */
+      margin-left: -110px;
+ 
+   margin-top: -105px; }
+
 }
 
 
