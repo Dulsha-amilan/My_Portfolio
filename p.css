@@ -1273,7 +1273,7 @@ animation-delay: calc(.3s * var(--i));
     .img-box img {
         max-width: 90%; /* Ensure image doesn't overflow */
        display: block;
-   margin-top: -20px; }
+   margin-top: -10px; }
 
     /* Adjust SVG animation */
    
