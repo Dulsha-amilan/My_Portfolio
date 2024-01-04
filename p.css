@@ -1248,6 +1248,7 @@ animation-delay: calc(.3s * var(--i));
 /* Apply styles for smaller screens */
 @media screen and (max-width: 768px) {
     .home-content {
+        margin-top: -2px;
         text-align: left; /* Center align content */
     }
 
