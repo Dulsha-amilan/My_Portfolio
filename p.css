@@ -1267,7 +1267,7 @@ animation-delay: calc(.3s * var(--i));
    
 
     .img-box img {
-        max-width: 102%; /* Ensure image doesn't overflow */
+        max-width: 110%; /* Ensure image doesn't overflow */
       margin-left: -110px;
  
    margin-top: -105px; }
