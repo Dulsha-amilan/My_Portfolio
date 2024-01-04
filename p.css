@@ -1255,10 +1255,7 @@ animation-delay: calc(.3s * var(--i));
         font-size: 18px; /* Adjust font size */
     }
 
-    .btn-box {home-image
-        display: flex;
-        justify-content: center;
-        margin-top: 20px; /* Adjust spacing */
+    .btn-box {
     }
 
     .home-sci {
@@ -1269,6 +1266,7 @@ animation-delay: calc(.3s * var(--i));
     .home-image {
         text-align: right; /* Center align image */
         margin-top: 20px; /* Adjust spacing */
+        width: auto;
     }
 
     .img-box img {
