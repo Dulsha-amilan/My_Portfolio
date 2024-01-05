@@ -1259,9 +1259,8 @@ animation-delay: calc(.3s * var(--i));
     
 
     .home-sci {
-        margin:auto
-    
-       
+        display: table-column-group;
+
     }
 
    
@@ -1269,8 +1268,8 @@ animation-delay: calc(.3s * var(--i));
     .img-box img {
         max-width: 110%; /* Ensure image doesn't overflow */
       margin-left: -110px;
- 
-   margin-top: -110px; }
+    
+   margin-top: -95px; }
 
     }
 
