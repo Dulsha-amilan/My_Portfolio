@@ -1247,30 +1247,29 @@ animation-delay: calc(.3s * var(--i));
 /* Mobile-first styles */
 /* Apply styles for smaller screens */
 @media screen and (max-width: 768px) {
-    .home-content {
-        text-align: left; /* Center align content */
+    h1 {
+        font-size: 1.5rem;
     }
 
-    .change-text h3  {
-        font-size: 18px; /* Adjust font size */
-        text-align: right;
+    .change-text h3 {
+        font-size: 3rem;
     }
 
-    
-
-    .home-sci {
-     
-        position:static ;
-
+    p {
+        font-size: 0.9rem;
     }
 
-   
+    .btn {
+        font-size: 0.8rem;
+    }
 
-    .img-box img {
-        max-width: 110%; /* Ensure image doesn't overflow */
-      margin-left: -110px;
-    
-   margin-top: -95px; }
+    .home-image {
+        margin-top: 1px;
+    }
+
+    .bx {
+        font-size: 1.5rem;
+    }
 
     }
 
