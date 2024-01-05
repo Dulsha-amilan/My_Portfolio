@@ -1259,7 +1259,8 @@ animation-delay: calc(.3s * var(--i));
     
 
     .home-sci {
-        display: table-column-group;
+     
+        position:static ;
 
     }
 
