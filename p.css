@@ -1253,7 +1253,7 @@ animation-delay: calc(.3s * var(--i));
     }
 
     .change-text h3 {
-        font-size: 1rem;
+        font-size: 3rem;
     }
 
     p {
