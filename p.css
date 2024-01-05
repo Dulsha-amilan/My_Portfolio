@@ -1253,22 +1253,22 @@ animation-delay: calc(.3s * var(--i));
 
     .change-text h3  {
         font-size: 18px; /* Adjust font size */
-        text-align: right;
+      
     }
 
     
 
     .home-sci {
      
-        position:static ;
+        position:sticky ;
 
     }
 
    
 
     .img-box img {
-        max-width: 110%; /* Ensure image doesn't overflow */
-      margin-left: -110px;
+        max-width: 120%; /* Ensure image doesn't overflow */
+      margin-left: -50px;
     
    margin-top: -95px; }
 
