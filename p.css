@@ -1251,28 +1251,41 @@ animation-delay: calc(.3s * var(--i));
     h1 {
         font-size: 1.5rem;
     }
-
-    .change-text h3 {
-        font-size: 2.5rem;
+    .home-content {
+        text-align: left; /* Center align content */
     }
 
+    .change-text h3  {
+        font-size: 18px; /* Adjust font size */
+      
+    }
     p {
         font-size: 0.9rem;
     }
-
     .btn {
         font-size: 0.8rem;
     }
 
-    .img-box img {
-        max-width: 100%;
-        margin: 0; /* Reset margin */
+    .home-sci {
+     
+        position:sticky ;
+
     }
 
+   
+
+    .img-box img {
+        max-width: 130%; /* Ensure image doesn't overflow */
+      margin-left: -50px;
+    
+   margin-top: -95px; }
+
+    }
     .bx {
         font-size: 1.5rem;
     }
-}
+
+
 /* KEYFRAMES ANIMATION */
 
 @keyframes homeBgtext {
